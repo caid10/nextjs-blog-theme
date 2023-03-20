@@ -58,6 +58,14 @@ export default function Index({ posts, globalData }) {
     </Layout>
   );
 }
+    <form
+      class="form"
+      method="POST"
+      name="contact"
+      action="/success"
+      data-netlify="true"
+    >
+
 
 export function getStaticProps() {
   const posts = getPosts();
